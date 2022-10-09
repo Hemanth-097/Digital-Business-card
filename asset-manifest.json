@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/static/css/main.919495f0.css",
+    "main.js": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/static/js/main.25f4678e.js",
+    "static/media/2015_bmw_m4_motogp_safety_bike-1920x1200.jpg": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/static/media/2015_bmw_m4_motogp_safety_bike-1920x1200.68960e4b53e0db778e34.jpg",
+    "index.html": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/index.html",
+    "main.919495f0.css.map": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/static/css/main.919495f0.css.map",
+    "main.25f4678e.js.map": "/httpsnpm%20install%20--save%20gh-pages://hemanth-097.github.io/Digital-Business-card/static/js/main.25f4678e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.919495f0.css",
+    "static/js/main.25f4678e.js"
+  ]
+}
