@@ -68,3 +68,72 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<h1>GitHub Pages</h1>
+Note: this feature is available with react-scripts@0.2.0 and higher.
+<br>
+<br>
+
+<h5>Step 1: Add homepage to package.json
+The step below is important!
+
+If you skip it, your app will not deploy correctly.
+
+Open your package.json and add a homepage field for your project:
+
+  "homepage": "https://myusername.github.io/my-app",
+or for a GitHub user page:
+
+  "homepage": "https://myusername.github.io",
+or for a custom domain page:
+
+  "homepage": "https://mywebsite.com",
+Create React App uses the homepage field to determine the root URL in the built HTML file.
+<br>
+<br>
+
+Step 2: Install gh-pages and add deploy to scripts in package.json
+Now, whenever you run npm run build, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
+
+To publish it at https://myusername.github.io/my-app, run:
+
+npm install --save gh-pages
+Alternatively you may use yarn:
+
+yarn add gh-pages
+Add the following scripts in your package.json:<br>
+
+  "scripts": {
++   "predeploy": "npm run build",<br>
++   "deploy": "gh-pages -d build",<br>
+    "start": "react-scripts start",<br>
+    "build": "react-scripts build",<br>
+The predeploy script will run automatically before deploy is run.
+
+If you are deploying to a GitHub user page instead of a project page you'll need to make one additional modification:
+
+Tweak your package.json scripts to push deployments to master:<br>
+  "scripts": {
+    "predeploy": "npm run build",<br>
+-   "deploy": "gh-pages -d build",<br>
++   "deploy": "gh-pages -b master -d build",<br><br>
+<br>
+<br>
+Step 3: Deploy the site by running npm run deploy
+Then run:
+npm run deploy
+<br>
+<br>
+Step 4: For a project page, ensure your project’s settings use gh-pages
+Finally, make sure GitHub Pages option in your GitHub project settings is set to use the gh-pages branch:
+gh-pages branch setting
+<br>
+<br>
+Step 5: Optionally, configure the domain
+You can configure a custom domain with GitHub Pages by adding a CNAME file to the public/ folder.
+
+Your CNAME file should look like this:</h5>
+<h4>
+For Example
+mywebsite.com
+</h4>
