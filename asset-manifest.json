@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Digital-Business-card/static/css/main.919495f0.css",
+    "main.js": "/Digital-Business-card/static/js/main.b4eb67bc.js",
+    "static/media/2015_bmw_m4_motogp_safety_bike-1920x1200.jpg": "/Digital-Business-card/static/media/2015_bmw_m4_motogp_safety_bike-1920x1200.68960e4b53e0db778e34.jpg",
+    "index.html": "/Digital-Business-card/index.html",
+    "main.919495f0.css.map": "/Digital-Business-card/static/css/main.919495f0.css.map",
+    "main.b4eb67bc.js.map": "/Digital-Business-card/static/js/main.b4eb67bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.919495f0.css",
+    "static/js/main.b4eb67bc.js"
+  ]
+}
