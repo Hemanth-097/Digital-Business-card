@@ -116,7 +116,7 @@ Tweak your package.json scripts to push deployments to master:<br>
   "scripts": {
     "predeploy": "npm run build",<br>
 -   "deploy": "gh-pages -d build",<br>
-+   "deploy": "gh-pages -b master -d build",<br><br>
++   "deploy": "gh-pages -b master -d build",
 <br>
 <br>
 Step 3: Deploy the site by running npm run deploy
